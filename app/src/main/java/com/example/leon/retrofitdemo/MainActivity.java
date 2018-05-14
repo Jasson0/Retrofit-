@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.example.leon.retrofitdemo.customConverter.StringConverterFactory;
 import com.example.leon.retrofitdemo.recyclerview.MyRecyclerAdapter;
 import com.google.gson.Gson;
 

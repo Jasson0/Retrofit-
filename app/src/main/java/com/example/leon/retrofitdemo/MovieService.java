@@ -19,6 +19,6 @@ public interface MovieService {
 
     @FormUrlEncoded
     @POST("top250")
-    Call<MovieSubject> getTop2502(@Field("start") int start, @Field("count") int count);
+    Call<MovieSubject2> getTop2502(@Field("start") int start, @Field("count") int count);
 //    Call<MovieSubject2> getTop250(@Query("start") int start, @Query("count") int count);
 }
